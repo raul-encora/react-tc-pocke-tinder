@@ -6,7 +6,7 @@ export const ListItemsContext = createContext({
         discarts: [],
         all: []
     },
-    setItems: (value: any) => {}
+    setItems: (val: any) => { console.log(val) }
 });
 
 export const ContextProvider = ({ children }: { children: React.ReactNode }) => {
